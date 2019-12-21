@@ -34,7 +34,9 @@ module.exports = {
         "arrow-body-style": [
             "error",
             "as-needed",
-            { "requireReturnForObjectLiteral": true }
+            {
+                "requireReturnForObjectLiteral": true
+            }
         ],
         "jsx-quotes": ["error", "prefer-double"],
         "semi": ["error", "never"],
