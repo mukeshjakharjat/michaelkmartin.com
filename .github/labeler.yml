@@ -1,0 +1,13 @@
+# Add 'core' label to any root file changes
+core:
+  - ./*
+
+# Add '@domain/core' label to any change within the 'core' package
+plugin:
+  - plugins/*
+  - package/**/*
+
+# Add 'test' label to any change to *.spec.js files within the source dir
+test:
+  - src/**/*.spec.js
+  - test/**/*
