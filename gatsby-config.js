@@ -10,8 +10,12 @@ try {
 } catch (e) {
     ghostConfig = {
         production: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: process.env.PRODUCTION_API_URL,
+            contentApiKey: process.env.PRODUCTION_API_KEY,
+        },
+        development: {
+            apiUrl: process.env.DEVELOPMENT_API_URL,
+            contentApiKey: process.env.DEVELOPMENT_API_KEY,
         },
     }
 } finally {
