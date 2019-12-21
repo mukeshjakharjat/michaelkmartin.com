@@ -13,10 +13,6 @@
 
 [context.production.environment]
     NODE_ENV = "production"
-    PRODUCTION_API_KEY = "YOUR CONTENT API KEY"
-    PRODUCTION_API_URL = "https://your-ghost-blog.com"
 
 [context.development.environment]
     NODE_ENV = "development"
-    DEVELOPMENT_API_KEY = "YOUR CONTENT API KEY"
-    DEVELOPMENT_API_URL = "https://your-ghost-blog.com"
