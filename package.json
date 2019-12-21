@@ -10,7 +10,7 @@
     "url": "git+https://github.com/tryghost/gatsby-starter-ghost.git"
   },
   "resolutions": {
-    "sharp": "0.22.1"
+    "sharp": "0.23.2"
   },
   "engines": {
     "node": ">= 8.9.0"
@@ -37,6 +37,7 @@
     "eslint-plugin-react": "7.16.0"
   },
   "dependencies": {
+    "@types/react": "^15.0.0 || ^16.0.0",
     "@tryghost/helpers": "1.1.19",
     "@tryghost/helpers-gatsby": "1.0.22",
     "cheerio": "1.0.0-rc.3",
