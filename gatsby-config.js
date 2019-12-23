@@ -78,6 +78,7 @@ module.exports = {
             resolve: "gatsby-plugin-sentry",
             options: {
               dsn: process.env.SENTRY_DNS,
+              release: 'michaelkmartin.com@' + process.env.npm_pacakage_version,
               // Optional settings, see https://docs.sentry.io/clients/node/config/#optional-settings
               environment: process.env.NODE_ENV,
               enabled: (() => ["production", "staging"].indexOf(process.env.NODE_ENV) !== -1)()
