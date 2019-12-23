@@ -38,6 +38,7 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
+    "@sentry/node": "5.10.2",
     "@tryghost/helpers": "1.1.19",
     "@tryghost/helpers-gatsby": "1.0.22",
     "@types/react": "^15.0.0 || ^16.0.0",
