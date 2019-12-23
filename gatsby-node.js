@@ -6,7 +6,7 @@ const { paginate } = require(`gatsby-awesome-pagination`)
  * Sentry Debugger
  */
 const Sentry = require(`@sentry/node`)
-Sentry.init({ dsn: process.env.SENTRY_DNS });
+Sentry.init({ dsn: process.env.SENTRY_DNS })
 
 /**
  * Here is the place where Gatsby creates the URLs for all the
