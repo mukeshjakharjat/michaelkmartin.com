@@ -3,6 +3,12 @@ const { postsPerPage } = require(`./src/utils/siteConfig`)
 const { paginate } = require(`gatsby-awesome-pagination`)
 
 /**
+ * Sentry Debugger
+ */
+const Sentry = require(`@sentry/node`)
+Sentry.init({ dsn: process.env.SENTRY_DNS })
+
+/**
  * Here is the place where Gatsby creates the URLs for all the
  * posts, tags, pages and authors that we fetched from the Ghost site.
  */
